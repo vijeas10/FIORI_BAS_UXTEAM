@@ -148,7 +148,8 @@
               }
             },
             "tableSettings": {
-              "type": "ResponsiveTable"
+              "type": "ResponsiveTable",
+              "multiSelect": true
             },
             "quickVariantSelection": {
               "showCounts": true,

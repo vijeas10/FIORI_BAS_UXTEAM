@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
-
 specVersion: "4.0"
 metadata:
   name: uxteam
@@ -16,11 +14,11 @@ builder:
         target:
           destination: TRL_EN
           url: https://7a456f9d-5fc0-4e0c-b7a7-81e65d431356.abap.us10.hana.ondemand.com
-          client: '100'
+          client: "100"
         app:
           name: UXTEAM
           description: An SAP Fiori application.
           package: ZUXTEAM_APP
-          transport: REPLACE_WITH_TRANSPORT
+          transport: TRLK900418
         exclude:
           - /test/
